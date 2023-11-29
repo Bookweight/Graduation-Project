@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: gradproj-cq3z4
+  project: car-det-ver2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gradproj-cq3z4/car-det-ver2/dataset/2
